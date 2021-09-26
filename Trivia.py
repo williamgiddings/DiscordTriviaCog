@@ -13,17 +13,6 @@ class Trivia(commands.Cog):
     AnswerOptions = ["A. ", "B. ", "C. ", "D. ", "E. ", "F. "]
     AllowedEmojis = ["🇦", "🇧", "🇨", "🇩", "🇪", "🇫"]
 
-    class AnswerSubmission:
-        User = None
-        Answer = -1
-
-        def __init__(self, User, Answer):
-            self.User = User
-            self.Answer = Answer
-
-        def __eq__(self, other):
-            return other.User == self.User
-
     # ------------------------------------------------------------------------------
 
     class Question:
