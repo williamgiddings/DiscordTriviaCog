@@ -41,3 +41,8 @@ Installing
     ```
 4. **All set!**
 **Make sure that you have filled in the proveded *config.toml* file with the correct information to enable use of the bot in a guild.**
+
+Sources
+----------
+
+All questions come from the [Open Trivia Database](https://opentdb.com/). Many thanks to all the generous contributors who update the database with new questions daily!
